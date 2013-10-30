@@ -1,6 +1,5 @@
-require 'resque-history/engine'
+require 'resque_web'
 
 ResqueEnginePluginsTest::Application.routes.draw do
   mount ResqueWeb::Engine => "/resque"
-  mount ResqueHistory::Engine => ""
 end

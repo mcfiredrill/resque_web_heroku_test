@@ -45,5 +45,4 @@ end
 # gem 'debugger', group: [:development, :test]
 #
 gem 'resque'
-gem 'resque-web', require: 'resque_web', path: '/home/tony/src/resque_web'
-gem 'resque-history', path: '/home/tony/src/resque-history'
+gem 'resque-web', require: 'resque_web'
