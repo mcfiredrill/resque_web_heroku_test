@@ -45,3 +45,5 @@ end
 #
 gem 'resque'
 gem 'resque-web', require: 'resque_web'
+
+gem 'rails_12factor'
